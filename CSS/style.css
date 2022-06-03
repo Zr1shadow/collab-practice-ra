@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../IMG/khai-truong-TuT_ttpdEIM-unsplash.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: #E8E8E8;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+button {
+    border-radius: 20px;
+}
